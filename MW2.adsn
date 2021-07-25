@@ -1,0 +1,1317 @@
+$begin 'AnsoftProject'
+	Created='Sun May 30 15:15:12 2021'
+	Product='Designer'
+	NextUniqueID=0
+	MoveBackwards=false
+	$begin 'Desktop'
+		Version(2, 1, 'SV')
+	$end 'Desktop'
+	$begin 'DesignMgrEnvironment'
+		CompInstCounter=10
+		GPortCounter=0
+		NetCounter=47
+	$end 'DesignMgrEnvironment'
+	$begin 'Datasets'
+		NextUniqueID=0
+		MoveBackwards=false
+		$begin 'DatasetDefinitions'
+		$end 'DatasetDefinitions'
+	$end 'Datasets'
+	$begin 'GlobalVariables'
+		VariableProp('$ZL', 'UD', '', '500')
+	$end 'GlobalVariables'
+	$begin 'Definitions'
+		$begin 'Folders'
+			Definitions(7338, 10000, 1, 1, 0, false, false)
+			Components(7338, 9000, 8, 2, 1, false, false)
+			Materials(7338, 9001, 9, 3, 1, false, false)
+			Scripts(7338, 9007, 33500, 8, 1, false, false)
+			Symbols(7338, 9002, 10, 4, 1, false, false)
+			Footprints(7338, 9003, 11, 5, 1, false, false)
+			Padstacks(7338, 9004, 12, 6, 1, false, false)
+		$end 'Folders'
+		$begin 'Materials'
+			$begin 'copper'
+				permeability='0.999991'
+				conductivity='58000000'
+				ModTime=1622379769
+				Library='Materials'
+				LibLocation='SysLibrary '
+			$end 'copper'
+			$begin 'FR4_epoxy'
+				permittivity='4.4'
+				dielectric_loss_tangent='0.02'
+				ModTime=1622379769
+				Library='Materials'
+				LibLocation='SysLibrary '
+			$end 'FR4_epoxy'
+		$end 'Materials'
+		$begin 'Scripts'
+		$end 'Scripts'
+		$begin 'Symbols'
+			$begin 'Circuit1'
+				ModTime=1622379769
+				Library=''
+				LibLocation='Project'
+				$begin 'PinDef'
+					Pin('Port1', -0.00508, 0, 0, 'N', 0, 0.00254, false, 0, true, '', true, false)
+					$begin 'PropDisplayMap'
+						PinName(2, 5, Text(-0.00508, 0.000635, 0, 4, 5, false, 'Arial', 0, 'Port1'))
+					$end 'PropDisplayMap'
+				$end 'PinDef'
+				$begin 'PinDef'
+					Pin('Port2', 0.00508, 0, 3.14159265358979, 'N', 0, 0.00254, false, 0, true, '', true, false)
+					$begin 'PropDisplayMap'
+						PinName(2, 5, Text(0.00508, 0.000635, 0, 4, 5, false, 'Arial', 0, 'Port2'))
+					$end 'PropDisplayMap'
+				$end 'PinDef'
+				$begin 'PinDef'
+					Pin('Port3', -0.00508, -0.00254, 0, 'N', 0, 0.00254, false, 0, true, '', true, false)
+					$begin 'PropDisplayMap'
+						PinName(2, 5, Text(-0.00508, -0.001905, 0, 4, 5, false, 'Arial', 0, 'Port3'))
+					$end 'PropDisplayMap'
+				$end 'PinDef'
+				$begin 'PinDef'
+					Pin('Port4', 0.00508, -0.00254, 3.14159265358979, 'N', 0, 0.00254, false, 0, true, '', true, false)
+					$begin 'PropDisplayMap'
+						PinName(2, 5, Text(0.00508, -0.001905, 0, 4, 5, false, 'Arial', 0, 'Port4'))
+					$end 'PropDisplayMap'
+				$end 'PinDef'
+				$begin 'Graphics'
+					Rect(0, 0, 0, 0, 0, -0.00127, 0.00508, 0.00762)
+				$end 'Graphics'
+			$end 'Circuit1'
+			$begin 'hybd90'
+				ModTime=1017176827
+				Library='Circuit Elements\\Ideal Microwave'
+				LibLocation='SysLibrary '
+				$begin 'PinDef'
+					Pin('n1', -0.00762, 0.00254, 0, 'N', 0, 0, false, 0, true, '', false, false)
+				$end 'PinDef'
+				$begin 'PinDef'
+					Pin('n2', 0.00508, 0.00254, 3.14159, 'N', 0, 0, false, 0, true, '', false, false)
+				$end 'PinDef'
+				$begin 'PinDef'
+					Pin('n3', 0.00508, -0.00254, 3.14159, 'N', 0, 0, false, 0, true, '', false, false)
+				$end 'PinDef'
+				$begin 'PinDef'
+					Pin('n4', -0.00762, -0.00254, 0, 'N', 0, 0, false, 0, true, '', false, false)
+				$end 'PinDef'
+				$begin 'Graphics'
+					Line(0, 1, 12566272, -0.00762, 0.00254, -0.00508, 0.00254)
+					Line(0, 1, 12566272, 0.00254, 0.00254, 0.00508, 0.00254)
+					Line(0, 1, 12566272, -0.00762, -0.00254, -0.00508, -0.00254)
+					Line(0, 1, 12566272, 0.00254, -0.00254, 0.00508, -0.00254)
+					Text(-0.004572, 0.003302, 0, 0, 5, false, 'Arial', 12566272, 'IN')
+					Text(-0.004572, -0.001778, 0, 0, 5, false, 'Arial', 12566272, 'ISO')
+					Text(-0.000254, 0.003302, 0, 0, 5, false, 'Arial', 12566272, '-90')
+					Text(-0.001016, -0.001778, 0, 0, 5, false, 'Arial', 12566272, '-180')
+					Rect(0, 0, 12566272, 0, -0.00127, -2.83694e-006, 0.00766609, 0.0101785)
+				$end 'Graphics'
+			$end 'hybd90'
+			$begin 'res'
+				ModTime=1016057336
+				Library='Circuit Elements\\Lumped'
+				LibLocation='SysLibrary '
+				$begin 'PinDef'
+					Pin('n1', -0.00508, 3.46945e-018, 0, 'N', 0, 0, false, 0, true, '', false, false)
+				$end 'PinDef'
+				$begin 'PinDef'
+					Pin('n2', 0.00508, 3.46945e-018, 3.14159, 'N', 0, 0, false, 0, true, '', false, false)
+				$end 'PinDef'
+				$begin 'Graphics'
+					Line(0, 1, 12566272, -0.003048, 0, -0.00254, 0.001016, -0.001524, -0.001016, -0.000508, 0.001016, 0.000508, -0.001016, 0.001524, 0.001016, 0.00254, -0.001016, 0.003048, 0, 0.00508, 0)
+					Line(0, 1, 12566272, -0.00508, 0, -0.003048, 0)
+				$end 'Graphics'
+				$begin 'PropDisplayMap'
+					R(2, 5, Text(2.1684e-019, -0.00334081, 0, 4, 5, false, 'Arial', 0, '[R]'))
+				$end 'PropDisplayMap'
+			$end 'res'
+			$begin 'chipres'
+				ModTime=1017850525
+				Library='Circuit Elements\\Lumped'
+				LibLocation='SysLibrary '
+				$begin 'PinDef'
+					Pin('n1', -0.00508, 0, 0, 'N', 0, 0, false, 0, true, '', false, false)
+				$end 'PinDef'
+				$begin 'PinDef'
+					Pin('n2', 0.00508, 0, 3.14159, 'N', 0, 0, false, 0, true, '', false, false)
+				$end 'PinDef'
+				$begin 'Graphics'
+					Line(0, 1, 12566272, -0.003048, 0, -0.00254, 0.001016, -0.001524, -0.001016, -0.000508, 0.001016, 0.000508, -0.001016, 0.001524, 0.001016, 0.00254, -0.001016, 0.003048, 0, 0.00508, 0)
+					Line(0, 1, 12566272, -0.00508, 0, -0.003048, 0)
+				$end 'Graphics'
+				$begin 'PropDisplayMap'
+					R(2, 5, Text(3.46945e-018, -0.0038347, 0, 4, 5, false, 'Arial', 0, '[R]'))
+				$end 'PropDisplayMap'
+			$end 'chipres'
+			$begin 'resn'
+				ModTime=1016057467
+				Library='Circuit Elements\\Lumped'
+				LibLocation='SysLibrary '
+				$begin 'PinDef'
+					Pin('n1', -0.00508, 3.46945e-018, 0, 'N', 0, 0, false, 0, true, '', false, false)
+				$end 'PinDef'
+				$begin 'PinDef'
+					Pin('n2', 0.00508, 3.46945e-018, 3.14159, 'N', 0, 0, false, 0, true, '', false, false)
+				$end 'PinDef'
+				$begin 'Graphics'
+					Line(0, 1, 12566272, -0.003048, 0, -0.00254, 0.001016, -0.001524, -0.001016, -0.000508, 0.001016, 0.000508, -0.001016, 0.001524, 0.001016, 0.00254, -0.001016, 0.003048, 0, 0.00508, 0)
+					Line(0, 1, 12566272, -0.00508, 0, -0.003048, 0)
+				$end 'Graphics'
+				$begin 'PropDisplayMap'
+					R(2, 5, Text(2.1684e-019, -0.00334081, 0, 4, 5, false, 'Arial', 0, '[R]'))
+					TEMP(3, 5, Text(-6.93889e-018, -0.00562681, 0, 4, 5, false, 'Arial', 0, 'TEMP=***'))
+				$end 'PropDisplayMap'
+			$end 'resn'
+			$begin 'port_term'
+				ModTime=1038155973
+				Library='Symbols'
+				LibLocation='SysLibrary '
+				$begin 'PinDef'
+					Pin('c', 0, 0.01016, 6.28318, 'N', 0, 0, true, 0, true, '', false, false)
+				$end 'PinDef'
+				$begin 'Graphics'
+					Rect(0, 0, 12566272, 3.1416, -9.3315e-020, 0.00254, 0.00508, 0.01016)
+					Line(0, 1, 12566272, -0.0017145, -0.00508, 0.0017145, -0.00508)
+					Line(0, 1, 12566272, 0.001143, -0.005842, -0.001143, -0.005842)
+					Line(0, 1, 12566272, 0.0005715, -0.006604, -0.0005715, -0.006604)
+					Line(0, 1, 12566272, -1.02647e-018, 0.01016, -4.66575e-019, 0.005588, -0.001016, 0.00508, 0.001016, 0.004064, -0.001016, 0.003048, 0.001016, 0.002032, -0.001016, 0.001016, 0.001016, 1.51788e-018, 2.79945e-019, -0.000508, 0, -0.00508)
+				$end 'Graphics'
+				$begin 'PropDisplayMap'
+					InterfacePort(2, 5, Text(-0.00498726, 0.00661692, 0, 6, 5, false, 'Arial', 0, '[InterfacePort]'))
+					IZ(3, 5, Text(-0.00496743, -0.000528387, 0, 6, 5, false, 'Arial', 0, 'IZ=***'))
+					PNUM(3, 5, Text(-0.00497031, 0.00405229, 0, 6, 5, false, 'Arial', 0, 'PNUM=***'))
+					RZ(3, 5, Text(-0.00493086, 0.00176005, 0, 6, 5, false, 'Arial', 0, 'RZ=***'))
+				$end 'PropDisplayMap'
+			$end 'port_term'
+			$begin 'ground_earth'
+				ModTime=1016213689
+				Library='Symbols'
+				LibLocation='SysLibrary '
+				$begin 'PinDef'
+					Pin('n1', 0, 0.00254, 4.71239, 'N', 0, 0, false, 0, true, '', false, false)
+				$end 'PinDef'
+				$begin 'Graphics'
+					Line(0, 1, 12566272, -4.33681e-019, 0.00254, -4.33681e-019, 4.33681e-019)
+					Line(0, 1, 12566272, 0.0017145, -4.33681e-019, -0.0017145, -4.33681e-019)
+					Line(0, 1, 12566272, -0.001143, -0.000762, 0.001143, -0.000762)
+					Line(0, 1, 12566272, -0.0005715, -0.001524, 0.0005715, -0.001524)
+				$end 'Graphics'
+			$end 'ground_earth'
+			$begin 'NportData'
+				ModTime=1622381353
+				Library=''
+				LibLocation='Project'
+				$begin 'PinDef'
+					Pin('1', -0.00508, 0, 0, 'N', 0, 0.00254, false, 0, true, '', true, false)
+					$begin 'PropDisplayMap'
+						PinName(2, 5, Text(-0.00508, 0.000635, 0, 4, 5, false, 'Arial', 0, '1'))
+					$end 'PropDisplayMap'
+				$end 'PinDef'
+				$begin 'PinDef'
+					Pin('2', 0.00508, 0, 3.14159265358979, 'N', 0, 0.00254, false, 0, true, '', true, false)
+					$begin 'PropDisplayMap'
+						PinName(2, 5, Text(0.00508, 0.000635, 0, 4, 5, false, 'Arial', 0, '2'))
+					$end 'PropDisplayMap'
+				$end 'PinDef'
+				$begin 'PinDef'
+					Pin('1_ref', 0, -0.00254, 0, 'N', 0, 0, false, 0, false, '0', false, false)
+				$end 'PinDef'
+				$begin 'PinDef'
+					Pin('2_ref', 0, -0.00508, 0, 'N', 0, 0, false, 0, false, '0', false, false)
+				$end 'PinDef'
+				$begin 'Graphics'
+					Rect(0, 0, 0, 0, 0, 0, 0.00508, 0.00508)
+				$end 'Graphics'
+			$end 'NportData'
+		$end 'Symbols'
+		$begin 'Footprints'
+		$end 'Footprints'
+		$begin 'Padstacks'
+			$begin 'NoPad SMT East'
+				ModTime=1017696647
+				Library='Padstacks'
+				LibLocation='SysLibrary '
+				$begin 'layers'
+					SLayer(Layer(N='Template', ID=0, T='signal', TB='template', Col=32512, Pat=5), Elev='mid', SubL(Th='0mil', LElev='0mil', R='0mil', Mat='copper'))
+				$end 'layers'
+				$begin 'pads'
+					$begin 'pad_on_layer'
+						layer=0
+						PadPort=true
+						$begin 'connection positions'
+							$begin 'position'
+								position(0, 0)
+								directions(0)
+							$end 'position'
+						$end 'connection positions'
+						$begin 'connected'
+							name='NoPad'
+							none()
+						$end 'connected'
+					$end 'pad_on_layer'
+				$end 'pads'
+			$end 'NoPad SMT East'
+		$end 'Padstacks'
+		$begin 'DefInfo'
+			Circuit1(4294967295, 4, '', 1622379769, '', 'Circuit1', '', '', '', '', '', '', '', 'Project')
+			HYBD90(4294901763, 4, 'Ansoft built-in component', 1016822803, '', 'hybd90', '', '', 'Hybrid Coupler, 90-Degree', 'HYBD90.htm', 'sercomponents.chm', 'hybd90.bmp', 'Circuit Elements\\Ideal Microwave', 'SysLibrary ')
+			RES(4294901763, 0, 'Ansoft built-in component', 1015023917, '', 'res', '', '', 'Resistor', 'RES.htm', 'sercomponents.chm', 'res.bmp', 'Circuit Elements\\Lumped\\Resistors', 'SysLibrary ')
+			CHIPRES(4294901763, 0, 'Ansoft built-in component', 1014228755, '', 'chipres', '', '', 'Chip Resistor', 'CHIPRES.htm', 'sercomponents.chm', 'chipres.bmp', 'Circuit Elements\\Lumped\\Resistors', 'SysLibrary ')
+			RESN(4294901763, 0, 'Ansoft built-in component', 1014288460, '', 'resn', '', '', 'Resistor, Noise Temp.', 'RESN.htm', 'sercomponents.chm', 'resn.bmp', 'Circuit Elements\\Lumped\\Resistors', 'SysLibrary ')
+			NportData(4294967295, 4, '', 1622381353, '', 'NportData', '', '', '', '', '', '', '', 'Project')
+		$end 'DefInfo'
+		$begin 'Compdefs'
+			$begin 'Circuit1'
+				Refbase='U'
+				NumParts=1
+				Terminal('Port1', 'Port1', 'A', false, 2, 0, 0)
+				Terminal('Port2', 'Port2', 'A', false, 8, 0, 0)
+				Terminal('Port3', 'Port3', 'A', false, 9, 0, 0)
+				Terminal('Port4', 'Port4', 'A', false, 10, 0, 0)
+				$begin 'Parameters'
+					TextProp('ModelName', 'HD', '', 'X')
+					VariableProp('Zl', 'UD', '', '0')
+				$end 'Parameters'
+				$begin 'Properties'
+					TextProp('Representation', 'SRD', '', 'Circuit1')
+					TextProp('Owner', 'SRD', '', 'Circuit')
+				$end 'Properties'
+			$end 'Circuit1'
+			$begin 'HYBD90'
+				Refbase='HY'
+				NumParts=1
+				Terminal('n1', 'n1', 'A', false, 22, 0, 0)
+				Terminal('n2', 'n2', 'A', false, 23, 0, 0)
+				Terminal('n3', 'n3', 'A', false, 24, 0, 0)
+				Terminal('n4', 'n4', 'A', false, 25, 0, 0)
+				$begin 'Parameters'
+					VariableProp('CP', 'D', 'Coupling factor, dB (positive number)', '3.0104')
+					VariableProp('PH1', 'D', 'Phase shift between port 1 and port 2', '-90deg')
+					VariableProp('PH2', 'D', 'Phase shift between port 1 and port 3', '-180deg')
+					VariableProp('RO', 'D', 'Reference impedance', '50')
+					ButtonProp('CircuitNetList', 'HD', '', 'HYB90:@ID %0 %1 %2 %3 *CP(CP=@CP) *PH1(PH1=@PH1) *PH2(PH2=@PH2) *RO(RO=@RO)', 'HYB90:@ID %0 %1 %2 %3 *CP(CP=@CP) *PH1(PH1=@PH1) *PH2(PH2=@PH2) *RO(RO=@RO)', 1)
+					ButtonProp('SystemNetList', 'HD', '', 'HYB90:@ID %0 %1 %2 %3 *CP(CP=@CP) *PH1(PH1=@PH1) *PH2(PH2=@PH2) *RO(RO=@RO)', 'HYB90:@ID %0 %1 %2 %3 *CP(CP=@CP) *PH1(PH1=@PH1) *PH2(PH2=@PH2) *RO(RO=@RO)', 1)
+					TextProp('ModelName', 'HD', '', 'HYB90')
+				$end 'Parameters'
+			$end 'HYBD90'
+			$begin 'RES'
+				Refbase='R'
+				NumParts=1
+				Terminal('n1', 'n1', 'A', false, 0, 0, 0)
+				Terminal('n2', 'n2', 'A', false, 0, 0, 0)
+				$begin 'Parameters'
+					VariableProp('R', 'D', 'Resistance', '100')
+					ButtonProp('CircuitNetList', 'HD', '', 'RES:@ID %0 %1 ?R(R=@R)', 'RES:@ID %0 %1 ?R(R=@R)', 1)
+					ButtonProp('SystemNetList', 'HD', '', 'RES:@ID %0 %1 ?R(R=@R)', 'RES:@ID %0 %1 ?R(R=@R)', 1)
+					TextProp('ModelName', 'HD', '', 'RES')
+				$end 'Parameters'
+			$end 'RES'
+			$begin 'CHIPRES'
+				Refbase='R'
+				NumParts=1
+				Terminal('n1', 'n1', 'A', false, 4, 0, 0)
+				Terminal('n2', 'n2', 'A', false, 5, 0, 0)
+				$begin 'Parameters'
+					VariableProp('R', 'D', 'Chip resistance', '50')
+					VariableProp('FESR', 'D', 'Chip reference frequency', '0GHz')
+					VariableProp('TC', 'D', 'Temperature coefficient in PPM', '0')
+					VariableProp('TEMP', 'D', 'Element temperature', '25cel')
+					TextProp('MOD', 'D', 'Name of the chip resistor in a related device library', '')
+					ButtonProp('CircuitNetList', 'HD', '', 'CHIPRES:@ID %0 %1 ?R(R=@R) *FESR(FESR=@FESR) *TC(TC=@TC) ?TEMP(TEMP=@TEMP) *MOD(MOD=@MOD)', 'CHIPRES:@ID %0 %1 ?R(R=@R) *FESR(FESR=@FESR) *TC(TC=@TC) ?TEMP(TEMP=@TEMP) *MOD(MOD=@MOD)', 1)
+					ButtonProp('SystemNetList', 'HD', '', 'CHIPRES:@ID %0 %1 ?R(R=@R) *FESR(FESR=@FESR) *TC(TC=@TC) ?TEMP(TEMP=@TEMP) *MOD(MOD=@MOD)', 'CHIPRES:@ID %0 %1 ?R(R=@R) *FESR(FESR=@FESR) *TC(TC=@TC) ?TEMP(TEMP=@TEMP) *MOD(MOD=@MOD)', 1)
+					TextProp('ModelName', 'HD', '', 'CHIPRES')
+				$end 'Parameters'
+			$end 'CHIPRES'
+			$begin 'RESN'
+				Refbase='R'
+				NumParts=1
+				Terminal('n1', 'n1', 'A', false, 6, 0, 0)
+				Terminal('n2', 'n2', 'A', false, 7, 0, 0)
+				$begin 'Parameters'
+					VariableProp('R', 'D', 'Resistance', '100')
+					VariableProp('NTEMP', 'D', 'Noise temperature', '100cel')
+					VariableProp('TC1', 'D', 'Linear temperature coefficient', '0')
+					VariableProp('TC2', 'D', 'Quadratic temperature coefficient', '0')
+					VariableProp('M', 'D', 'Multiplier: simulates parallel resistors', '1')
+					VariableProp('DTEMP', 'D', 'Difference between local and reference temperatures', '0cel')
+					ButtonProp('CircuitNetList', 'HD', '', 'RES:@ID %0 %1 R=@R ?NTEMP(NTEMP=@NTEMP) *TC1(TC1=@TC1) *TC2(TC2=@TC2) *M(M=@M) *DTEMP(DTEMP=@DTEMP)', 'RES:@ID %0 %1 R=@R ?NTEMP(NTEMP=@NTEMP) *TC1(TC1=@TC1) *TC2(TC2=@TC2) *M(M=@M) *DTEMP(DTEMP=@DTEMP)', 1)
+					ButtonProp('SystemNetList', 'HD', '', 'RES:@ID %0 %1 R=@R ?NTEMP(NTEMP=@NTEMP) *TC1(TC1=@TC1) *TC2(TC2=@TC2) *M(M=@M) *DTEMP(DTEMP=@DTEMP)', 'RES:@ID %0 %1 R=@R ?NTEMP(NTEMP=@NTEMP) *TC1(TC1=@TC1) *TC2(TC2=@TC2) *M(M=@M) *DTEMP(DTEMP=@DTEMP)', 1)
+					TextProp('ModelName', 'HD', '', 'RES')
+				$end 'Parameters'
+			$end 'RESN'
+			$begin 'NportData'
+				Refbase='U'
+				NumParts=1
+				Terminal('1', '1', 'A', false, 4, 0, 0)
+				Terminal('2', '2', 'A', false, 5, 0, 0)
+				Terminal('1_ref', '1_ref', 'A', false, 6, 0, 0)
+				Terminal('2_ref', '2_ref', 'A', false, 7, 0, 0)
+				$begin 'Parameters'
+					ButtonProp('Data', 'D', '', 'NportData', '', 0)
+				$end 'Parameters'
+				$begin 'CompData'
+					ComponentDataType='NPortData'
+					name='NportData'
+					filename=''
+					numberofports=2
+					filelocation='UsePath'
+					domain='frequency'
+					datamode='Import'
+					devicename=''
+					ImpedenceTab=true
+					NoiseDataTab=true
+					DCBehaviorTab=true
+					SolutionName=''
+					dcbehavior='DCOpen'
+					displayformat='MagnitudePhase'
+					datatype='SMatrix'
+					interptype='Linear'
+					extraptype='Zero padding'
+					ShowRefPin=false
+					RefNodeCheckbox=true
+				$end 'CompData'
+			$end 'NportData'
+		$end 'Compdefs'
+	$end 'Definitions'
+	$begin 'CircuitEnvironment'
+		Version(1, 0)
+	$end 'CircuitEnvironment'
+	$begin 'PlanarEMEnvironment'
+		Version(1, 0)
+	$end 'PlanarEMEnvironment'
+	$begin 'FilterDesignEnvironment'
+	$end 'FilterDesignEnvironment'
+	$begin 'SchematicEnvironment'
+		Version(1, 0)
+	$end 'SchematicEnvironment'
+	$begin 'HFCircuit'
+		Name='Circuit1'
+		$begin 'Circuit'
+			ComponentName='Circuit1'
+			AutoFP=''
+			$begin 'Variables'
+				VariableProp('Zd', 'UD', '', '250')
+			$end 'Variables'
+			$begin 'IPort'
+				PortName='Port1'
+				Public=true
+				Connectible=true
+				Direction='AnyDirection'
+				$begin 'Properties'
+					TextProp('pnum', 'OD', '', '1')
+					ButtonProp('EditPort', 'D', '', 'Edit', '', 0)
+					ValueProp('rz', 'OD', '', '50Ohm', 0)
+					ValueProp('iz', 'OD', '', '0Ohm', 0)
+					TextProp('PortSymbol', 'OHD', '', '1')
+					ButtonProp('CircuitNetlist', 'HD', '', 'PORT:@InterfacePort %0 ?RefNode(@RefNode):( %1 ) PNUM=@pnum &($=#)^(Name,pnum,RefNode,type,InterfacePort,Direction,EditPort,PortSymbol,RefImpedance)', 'PORT:@InterfacePort %0 ?RefNode(@RefNode):( %1 ) PNUM=@pnum &($=#)^(Name,pnum,RefNode,type,InterfacePort,Direction,EditPort,PortSymbol,RefImpedance)', 1)
+				$end 'Properties'
+			$end 'IPort'
+			$begin 'IPort'
+				PortName='Port2'
+				Public=true
+				Connectible=true
+				Direction='AnyDirection'
+				$begin 'Properties'
+					TextProp('pnum', 'OD', '', '2')
+					ButtonProp('EditPort', 'D', '', 'Edit', '', 0)
+					ValueProp('rz', 'OD', '', '250Ohm', 0)
+					ValueProp('iz', 'OD', '', '0Ohm', 0)
+					TextProp('PortSymbol', 'OHD', '', '1')
+					ButtonProp('CircuitNetlist', 'HD', '', 'PORT:@InterfacePort %0 ?RefNode(@RefNode):( %1 ) PNUM=@pnum &($=#)^(Name,pnum,RefNode,type,InterfacePort,Direction,EditPort,PortSymbol,RefImpedance)', 'PORT:@InterfacePort %0 ?RefNode(@RefNode):( %1 ) PNUM=@pnum &($=#)^(Name,pnum,RefNode,type,InterfacePort,Direction,EditPort,PortSymbol,RefImpedance)', 1)
+				$end 'Properties'
+			$end 'IPort'
+			$begin 'IPort'
+				PortName='Port3'
+				Public=true
+				Connectible=true
+				Direction='AnyDirection'
+				$begin 'Properties'
+					TextProp('pnum', 'OD', '', '3')
+					ButtonProp('EditPort', 'D', '', 'Edit', '', 0)
+					ValueProp('rz', 'OD', '', '250Ohm', 0)
+					ValueProp('iz', 'OD', '', '0Ohm', 0)
+					TextProp('PortSymbol', 'OHD', '', '1')
+					ButtonProp('CircuitNetlist', 'HD', '', 'PORT:@InterfacePort %0 ?RefNode(@RefNode):( %1 ) PNUM=@pnum &($=#)^(Name,pnum,RefNode,type,InterfacePort,Direction,EditPort,PortSymbol,RefImpedance)', 'PORT:@InterfacePort %0 ?RefNode(@RefNode):( %1 ) PNUM=@pnum &($=#)^(Name,pnum,RefNode,type,InterfacePort,Direction,EditPort,PortSymbol,RefImpedance)', 1)
+				$end 'Properties'
+			$end 'IPort'
+			$begin 'IPort'
+				PortName='Port4'
+				Public=true
+				Connectible=true
+				Direction='AnyDirection'
+				$begin 'Properties'
+					TextProp('pnum', 'OD', '', '4')
+					ButtonProp('EditPort', 'D', '', 'Edit', '', 0)
+					ValueProp('rz', 'OD', '', '50Ohm', 0)
+					ValueProp('iz', 'OD', '', '0Ohm', 0)
+					TextProp('PortSymbol', 'OHD', '', '1')
+					ButtonProp('CircuitNetlist', 'HD', '', 'PORT:@InterfacePort %0 ?RefNode(@RefNode):( %1 ) PNUM=@pnum &($=#)^(Name,pnum,RefNode,type,InterfacePort,Direction,EditPort,PortSymbol,RefImpedance)', 'PORT:@InterfacePort %0 ?RefNode(@RefNode):( %1 ) PNUM=@pnum &($=#)^(Name,pnum,RefNode,type,InterfacePort,Direction,EditPort,PortSymbol,RefImpedance)', 1)
+				$end 'Properties'
+			$end 'IPort'
+			$begin 'Compinst'
+				ID='1'
+				Status='Status'
+				CompName='HYBD90'
+				AutoGenerated=false
+				AutoGeneratedName=''
+				$begin 'Properties'
+					TextProp('ID', 'SRID', '', '1')
+				$end 'Properties'
+			$end 'Compinst'
+			$begin 'Net'
+				NetName='Port1'
+				$begin 'Properties'
+					CheckboxProp('AlignMicrowavePorts', 'D', '', true)
+				$end 'Properties'
+				NetInterfacePorts='Port1'
+				NetPin('1', 0)
+			$end 'Net'
+			$begin 'Net'
+				NetName='Port2'
+				$begin 'Properties'
+					CheckboxProp('AlignMicrowavePorts', 'D', '', true)
+				$end 'Properties'
+				NetInterfacePorts='Port2'
+				NetPin('1', 1)
+			$end 'Net'
+			$begin 'Net'
+				NetName='Port3'
+				$begin 'Properties'
+					CheckboxProp('AlignMicrowavePorts', 'D', '', true)
+				$end 'Properties'
+				NetInterfacePorts='Port3'
+				NetPin('1', 2)
+			$end 'Net'
+			$begin 'Net'
+				NetName='Port4'
+				$begin 'Properties'
+					CheckboxProp('AlignMicrowavePorts', 'D', '', true)
+				$end 'Properties'
+				NetInterfacePorts='Port4'
+				NetPin('1', 3)
+			$end 'Net'
+		$end 'Circuit'
+		$begin 'Schematic'
+			PPortCounter=0
+			$begin 'Page'
+				PageSize('A')
+				PageNumber=1
+				$begin 'SchIPort'
+					SchPortInst('defaultinterfaceport', '0', 'Port1', 23, -0.04826, -0.01016, 0, false, 'port_term')
+					$begin 'PropDisplayMap'
+						InterfacePort(2, 5, Text(-0.05324726, -0.00354308, 0, 6, 5, false, 'Arial', 0, 'Port1'))
+						IZ(3, 5, Text(-0.05322743, -0.010688387, 0, 6, 5, false, 'Arial', 0, 'IZ=0Ohm'))
+						PNUM(3, 5, Text(-0.05323031, -0.00610771, 0, 6, 5, false, 'Arial', 0, 'PNUM=1'))
+						RZ(3, 5, Text(-0.05319086, -0.00839995, 0, 6, 5, false, 'Arial', 0, 'RZ=50Ohm'))
+					$end 'PropDisplayMap'
+				$end 'SchIPort'
+				$begin 'SchIPort'
+					SchPortInst('defaultinterfaceport', '20', 'Port2', 85, 0.01778, -0.01016, 0, false, 'port_term')
+					$begin 'PropDisplayMap'
+						InterfacePort(2, 5, Text(0.01279274, -0.00354308, 0, 6, 5, false, 'Arial', 0, 'Port2'))
+						IZ(3, 5, Text(0.01281257, -0.010688387, 0, 6, 5, false, 'Arial', 0, 'IZ=0Ohm'))
+						PNUM(3, 5, Text(0.01280969, -0.00610771, 0, 6, 5, false, 'Arial', 0, 'PNUM=2'))
+						RZ(3, 5, Text(0.01284914, -0.00839995, 0, 6, 5, false, 'Arial', 0, 'RZ=250Ohm'))
+					$end 'PropDisplayMap'
+				$end 'SchIPort'
+				$begin 'SchIPort'
+					SchPortInst('defaultinterfaceport', '26', 'Port3', 106, -3.46944695195361e-018, -0.01524, 0, false, 'port_term')
+					$begin 'PropDisplayMap'
+						InterfacePort(2, 5, Text(-0.00498726, -0.00862308, 0, 6, 5, false, 'Arial', 0, 'Port3'))
+						IZ(3, 5, Text(-0.00496743, -0.015768387, 0, 6, 5, false, 'Arial', 0, 'IZ=0Ohm'))
+						PNUM(3, 5, Text(-0.00497031, -0.01118771, 0, 6, 5, false, 'Arial', 0, 'PNUM=3'))
+						RZ(3, 5, Text(-0.00493086, -0.01347995, 0, 6, 5, false, 'Arial', 0, 'RZ=250Ohm'))
+					$end 'PropDisplayMap'
+				$end 'SchIPort'
+				$begin 'SchIPort'
+					SchPortInst('defaultinterfaceport', '28', 'Port4', 110, -0.03048, -0.01524, 0, false, 'port_term')
+					$begin 'PropDisplayMap'
+						InterfacePort(2, 5, Text(-0.03546726, -0.00862308, 0, 6, 5, false, 'Arial', 0, 'Port4'))
+						IZ(3, 5, Text(-0.03544743, -0.015768387, 0, 6, 5, false, 'Arial', 0, 'IZ=0Ohm'))
+						PNUM(3, 5, Text(-0.03545031, -0.01118771, 0, 6, 5, false, 'Arial', 0, 'PNUM=4'))
+						RZ(3, 5, Text(-0.03541086, -0.01347995, 0, 6, 5, false, 'Arial', 0, 'RZ=50Ohm'))
+					$end 'PropDisplayMap'
+				$end 'SchIPort'
+				$begin 'SchCompDef'
+					SchCompInst('HYBD90', 'A', '1', 1, '1', 'normal', -0.01524, -0.00254, 0, false)
+				$end 'SchCompDef'
+				$begin 'PageNet'
+					NetName='Port1'
+					ID=29
+					Interface('Port1', 23)
+					WireSeg(-0.02286, 0, -0.04826, 0, 18)
+				$end 'PageNet'
+				$begin 'PageNet'
+					NetName='Port2'
+					ID=169
+					Interface('Port2', 85)
+					WireSeg(-0.01016, 0, 0.01778, 0, 26)
+				$end 'PageNet'
+				$begin 'PageNet'
+					NetName='Port3'
+					ID=166
+					Interface('Port3', 106)
+					WireSeg(-0.01016, -0.00508, 0, -0.00508, 25)
+				$end 'PageNet'
+				$begin 'PageNet'
+					NetName='Port4'
+					ID=163
+					Interface('Port4', 110)
+					WireSeg(-0.03048, -0.00508, -0.02286, -0.00508, 24)
+				$end 'PageNet'
+				$begin 'Properties'
+					TextProp('Title', 'SD', '', '<Page Title>')
+					TextProp('Author', 'SD', '', '')
+				$end 'Properties'
+			$end 'Page'
+			GridSetup(0.0254, 0.00254, 16772075, 16774645, true, true, 16777215)
+			hasWindowBeenOpened=false
+		$end 'Schematic'
+		$begin 'Layout'
+			BlackBox=false
+			DefUnits='mm'
+			NIdx=12
+			$begin 'Lyrs'
+				Layer(N='Measures', ID=0, T='measures', Col=4144959, Pat=1)
+				Layer(N='Rats', ID=1, T='rat', Col=16711680, Pat=1)
+				Layer(N='Errors', ID=2, T='error', Col=255, Pat=1)
+				Layer(N='Symbols', ID=3, T='symbol', Col=8323199, Pat=4)
+				Layer(N='Assembly', ID=4, T='assembly', TB='top', Col=16711680, Pat=3)
+				Layer(N='Silkscreen', ID=5, T='silkscreen', TB='top', Col=65280, Pat=2)
+				SLayer(Layer(N='Cover', ID=10, T='metalizedsignal', Col=127, Pat=2), Elev='mid', SubL(Th='0mil', LElev='60mil', R='0mil', Mat='copper'))
+				SLayer(Layer(N='dielectric1', ID=8, T='dielectric', Col=4144959, Pat=4), Elev='none', SubL(Th='30mil', LElev='30mil', R='0mil', Mat='FR4_epoxy'))
+				SLayer(Layer(N='Trace', ID=6, T='signal', Col=32512, Pat=4), Elev='mid', SubL(Th='0.675mil', LElev='29.6625mil', R='0mil', Mat='copper'))
+				SLayer(Layer(N='Dielectric', ID=7, T='dielectric', Col=127, Pat=7), Elev='none', SubL(Th='30mil', LElev='0mil', R='0mil', Mat='FR4_epoxy'))
+				SLayer(Layer(N='Ground', ID=9, T='metalizedsignal', Col=4144959, Pat=6), Elev='mid', SubL(Th='0mil', LElev='0mil', R='0mil', Mat='copper'))
+			$end 'Lyrs'
+			ActLyr='Trace'
+			Tol(2e-009, 1e-008, 1e-012)
+			$begin 'Pins'
+				$begin 'Pin'
+					Port(Id=3, PropDisps(PD(Id=0, PN='InterfacePort', DispTyp='v', Style='<DefaultAnnotation>', Lyr=3, N='text_5', x='0meter', y='0meter', F='Arial', Siz='12000mm', Wght=3, Just=4, Txt='Port1')), N='Port1')
+					Off(x='2mm', y='0mm')
+					Pstk='NoPad SMT East'
+					LyrMap(U='forward', F(-1, -1, -1, -1, -1, -1, 0, -1, -1, -1, -1), B(6))
+				$end 'Pin'
+				$begin 'Pin'
+					Port(Id=4, PropDisps(PD(Id=0, PN='InterfacePort', DispTyp='v', Style='<DefaultAnnotation>', Lyr=3, N='text_7', x='0meter', y='0meter', F='Arial', Siz='12000mm', Wght=3, Just=4, Txt='Port2')), N='Port2')
+					Off(x='6mm', y='0mm')
+					Pstk='NoPad SMT East'
+					LyrMap(U='forward', F(-1, -1, -1, -1, -1, -1, 0, -1, -1, -1, -1), B(6))
+				$end 'Pin'
+				$begin 'Pin'
+					Port(Id=5, PropDisps(PD(Id=0, PN='InterfacePort', DispTyp='v', Style='<DefaultAnnotation>', Lyr=3, N='text_8', x='0meter', y='0meter', F='Arial', Siz='12000mm', Wght=3, Just=4, Txt='Port3')), N='Port3')
+					Off(x='0mm', y='2mm')
+					Pstk='NoPad SMT East'
+					LyrMap(U='forward', F(-1, -1, -1, -1, -1, -1, 0, -1, -1, -1, -1), B(6))
+				$end 'Pin'
+				$begin 'Pin'
+					Port(Id=6, PropDisps(PD(Id=0, PN='InterfacePort', DispTyp='v', Style='<DefaultAnnotation>', Lyr=3, N='text_9', x='0meter', y='0meter', F='Arial', Siz='12000mm', Wght=3, Just=4, Txt='Port4')), N='Port4')
+					Off(x='2mm', y='2mm')
+					Pstk='NoPad SMT East'
+					LyrMap(U='forward', F(-1, -1, -1, -1, -1, -1, 0, -1, -1, -1, -1), B(6))
+				$end 'Pin'
+			$end 'Pins'
+			$begin 'Nets'
+				$begin 'Net'
+					N='Port1'
+					Cl(Ports(Ids(3)))
+					Cl(PortInsts(Ids(1002)))
+				$end 'Net'
+				$begin 'Net'
+					N='Port2'
+					Cl(Ports(Ids(4)))
+					Cl(PortInsts(Ids(1003)))
+				$end 'Net'
+				$begin 'Net'
+					N='Port3'
+					Cl(Ports(Ids(5)))
+					Cl(PortInsts(Ids(1004)))
+				$end 'Net'
+				$begin 'Net'
+					N='Port4'
+					Cl(Ports(Ids(6)))
+					Cl(PortInsts(Ids(1005)))
+				$end 'Net'
+			$end 'Nets'
+			$begin 'Comps'
+				$begin 'comp'
+					Lyr=3
+					N='1'
+					Def='__symbolFootprint_hybd90_0'
+					Pos(x='0mm', y='0mm', Scale='2')
+					Lyrs(Map(U='forward', F(0, 1, 2, 3), B(0, 1, 2, 3)))
+					PortInsts(PI(Id=1002, N='n1', PId=0), PI(Id=1003, N='n2', PId=0), PI(Id=1004, N='n3', PId=0), PI(Id=1005, N='n4', PId=0))
+					IsCirc=false
+					CompInst='1'
+					RectWidth=0.01
+				$end 'comp'
+			$end 'Comps'
+		$end 'Layout'
+		$begin 'ConfiguredLibs'
+			$begin 'SysLibraries'
+				Components='Circuit Elements'
+				Materials='Circuit Elements;Materials'
+				Symbols='Circuit Elements;Symbols'
+				Footprints='Circuit Elements;Footprints;Distributed Footprints'
+				Padstacks='Circuit Elements;Padstacks'
+				Scripts='Circuit Elements;Scripts'
+			$end 'SysLibraries'
+		$end 'ConfiguredLibs'
+		$begin 'ControlBlocks'
+			$begin 'SubstrateData'
+				Name='FR4'
+				Type=1
+				MetalSpecifyType=1
+				DielecTempMaterial0=''
+				DielecTempMaterial1=''
+				DielecTempMaterial2=''
+				DielecTempMaterial3=''
+				DielecTempMaterial4=''
+				MetalTempMaterial=''
+				Dielectric('60mil', '4.4', '0.02')
+				DielectricRef(2, 'FR4_epoxy')
+				Metalization(Layer('Trace'), Metal('copper', '1.724137931034483', '0.675mil'), Roughness('0mil'))
+			$end 'SubstrateData'
+		$end 'ControlBlocks'
+		sourcemgr()
+		portmgr('Port1', 'Port2', 'Port3', 'Port4')
+		$begin 'Solutions'
+			$begin 'OutputVariables'
+				Gam('(Zl-50)/(Zl+50)', 1, 'NoUnit', 2, '', 3, 0, 2, 0, true, false, -1, 1, 0, 1)
+			$end 'OutputVariables'
+			$begin 'SimSetup'
+				TypeName='LinearFrequency'
+				ID=71
+				Name='NWA1'
+				$begin 'SweepDefinition'
+					Variable='F'
+					Data='LIN 1GHz 10GHz 0.1GHz'
+					OffsetF1=false
+					Synchronize=0
+				$end 'SweepDefinition'
+				$begin 'Solution'
+					ID=72
+					Name='NWA1_71'
+					$begin 'SimDataExtractor'
+						SimValue('S41', 2, 90, false, 3, 0, 2, 0, true, false, -1, 1, 0, 1)
+						SimValue('S11', 2, 90, false, 3, 0, 2, 0, true, false, -1, 1, 0, 1)
+						$begin 'Sweeps'
+							$begin 'Sweep'
+								Variable='F'
+								Column='1GHz;1.1GHz;1.2GHz;1.3GHz;1.4GHz;1.5GHz;1.6GHz;1.7GHz;1.8GHz;1.9GHz;2GHz;2.1GHz;2.2GHz;2.3GHz;2.4GHz;2.5GHz;2.6GHz;2.7GHz;2.8GHz;2.9GHz;3GHz;3.1GHz;3.2GHz;3.3GHz;3.4GHz;3.5GHz;3.6GHz;3.7GHz;3.8GHz;3.9GHz;4GHz;4.1GHz;4.2GHz;4.3GHz;4.4GHz;4.5GHz;4.6GHz;4.7GHz;4.8GHz;4.9GHz;5GHz;5.1GHz;5.2GHz;5.3GHz;5.4GHz;5.5GHz;5.6GHz;5.7GHz;5.8GHz;5.9GHz;6GHz;6.1GHz;6.2GHz;6.3GHz;6.4GHz;6.5GHz;6.6GHz;6.7GHz;6.8GHz;6.9GHz;7GHz;7.1GHz;7.2GHz;7.3GHz;7.4GHz;7.5GHz;7.6GHz;7.7GHz;7.8GHz;7.9GHz;8GHz;8.1GHz;8.2GHz;8.3GHz;8.4GHz;8.5GHz;8.6GHz;8.7GHz;8.8GHz;8.9GHz;9GHz;9.1GHz;9.2GHz;9.3GHz;9.4GHz;9.5GHz;9.6GHz;9.7GHz;9.8GHz;9.9GHz;10GHz'
+								Units='GHz'
+							$end 'Sweep'
+						$end 'Sweeps'
+						$begin 'SolutionPointSets'
+							$begin 'SolutionPointSet'
+								name='NWA1_71:SolutionPointSet 13'
+								CurrentIndex=2
+								SolutionVersion=116
+								SimValueContext(3, 0, 2, 0, true, false, -1, 1, 0, 1)
+								$begin 'SubSweeps'
+									$begin 'F'
+										All=true
+										Indices()
+										$begin 'SweepBase'
+											Variable='F'
+											Column='1GHz;1.1GHz;1.2GHz;1.3GHz;1.4GHz;1.5GHz;1.6GHz;1.7GHz;1.8GHz;1.9GHz;2GHz;2.1GHz;2.2GHz;2.3GHz;2.4GHz;2.5GHz;2.6GHz;2.7GHz;2.8GHz;2.9GHz;3GHz;3.1GHz;3.2GHz;3.3GHz;3.4GHz;3.5GHz;3.6GHz;3.7GHz;3.8GHz;3.9GHz;4GHz;4.1GHz;4.2GHz;4.3GHz;4.4GHz;4.5GHz;4.6GHz;4.7GHz;4.8GHz;4.9GHz;5GHz;5.1GHz;5.2GHz;5.3GHz;5.4GHz;5.5GHz;5.6GHz;5.7GHz;5.8GHz;5.9GHz;6GHz;6.1GHz;6.2GHz;6.3GHz;6.4GHz;6.5GHz;6.6GHz;6.7GHz;6.8GHz;6.9GHz;7GHz;7.1GHz;7.2GHz;7.3GHz;7.4GHz;7.5GHz;7.6GHz;7.7GHz;7.8GHz;7.9GHz;8GHz;8.1GHz;8.2GHz;8.3GHz;8.4GHz;8.5GHz;8.6GHz;8.7GHz;8.8GHz;8.9GHz;9GHz;9.1GHz;9.2GHz;9.3GHz;9.4GHz;9.5GHz;9.6GHz;9.7GHz;9.8GHz;9.9GHz;10GHz'
+											Units='GHz'
+										$end 'SweepBase'
+									$end 'F'
+								$end 'SubSweeps'
+								$begin 'Traces'
+									$begin 'Trace2D'
+										name='NWA1_71:SolutionPointSet 13:Trace2D 1'
+										X(Desc='F', CatID=1, FuncID=0, IsInteger=false, Units='GHz', X='F')
+										Y(Desc='S41', CatID=3, FuncID=22, IsInteger=false, Units='', Y='mag(S41)')
+										$begin 'ExtTraceInfo'
+											NumPoints=4294967295
+											TraceType=0
+											Offset=0
+											XLabel=''
+											SamplingPeriod='0'
+										$end 'ExtTraceInfo'
+									$end 'Trace2D'
+								$end 'Traces'
+							$end 'SolutionPointSet'
+							$begin 'SolutionPointSet'
+								name='NWA1_71:SolutionPointSet 14'
+								CurrentIndex=2
+								SolutionVersion=116
+								SimValueContext(3, 0, 2, 0, true, false, -1, 1, 0, 1)
+								$begin 'SubSweeps'
+									$begin 'F'
+										All=true
+										Indices()
+										$begin 'SweepBase'
+											Variable='F'
+											Column='1GHz;1.1GHz;1.2GHz;1.3GHz;1.4GHz;1.5GHz;1.6GHz;1.7GHz;1.8GHz;1.9GHz;2GHz;2.1GHz;2.2GHz;2.3GHz;2.4GHz;2.5GHz;2.6GHz;2.7GHz;2.8GHz;2.9GHz;3GHz;3.1GHz;3.2GHz;3.3GHz;3.4GHz;3.5GHz;3.6GHz;3.7GHz;3.8GHz;3.9GHz;4GHz;4.1GHz;4.2GHz;4.3GHz;4.4GHz;4.5GHz;4.6GHz;4.7GHz;4.8GHz;4.9GHz;5GHz;5.1GHz;5.2GHz;5.3GHz;5.4GHz;5.5GHz;5.6GHz;5.7GHz;5.8GHz;5.9GHz;6GHz;6.1GHz;6.2GHz;6.3GHz;6.4GHz;6.5GHz;6.6GHz;6.7GHz;6.8GHz;6.9GHz;7GHz;7.1GHz;7.2GHz;7.3GHz;7.4GHz;7.5GHz;7.6GHz;7.7GHz;7.8GHz;7.9GHz;8GHz;8.1GHz;8.2GHz;8.3GHz;8.4GHz;8.5GHz;8.6GHz;8.7GHz;8.8GHz;8.9GHz;9GHz;9.1GHz;9.2GHz;9.3GHz;9.4GHz;9.5GHz;9.6GHz;9.7GHz;9.8GHz;9.9GHz;10GHz'
+											Units='GHz'
+										$end 'SweepBase'
+									$end 'F'
+								$end 'SubSweeps'
+								$begin 'Traces'
+									$begin 'Trace2D'
+										name='NWA1_71:SolutionPointSet 14:Trace2D 1'
+										X(Desc='F', CatID=1, FuncID=0, IsInteger=false, Units='GHz', X='F')
+										Y(Desc='S11', CatID=3, FuncID=11, IsInteger=false, Units='', Y='dB(S11)')
+										$begin 'ExtTraceInfo'
+											NumPoints=4294967295
+											TraceType=0
+											Offset=0
+											XLabel=''
+											SamplingPeriod='0'
+										$end 'ExtTraceInfo'
+									$end 'Trace2D'
+								$end 'Traces'
+							$end 'SolutionPointSet'
+						$end 'SolutionPointSets'
+					$end 'SimDataExtractor'
+				$end 'Solution'
+				OptionsReferred=''
+				moredata('', false, '', '')
+				IsEnabled=true
+				VersionID=116
+				LinearFrequencyData(false, 0.1)
+			$end 'SimSetup'
+			$begin 'Version ID Map'
+				V=116
+				$begin 'Setup'
+					N='NWA1'
+					V=116
+					Soln(N='NWA1_71', V=116)
+				$end 'Setup'
+			$end 'Version ID Map'
+		$end 'Solutions'
+		SParamCircuitDef=false
+		Notes=$begin_cdata$		$end_cdata$
+		$begin 'AnimationSetups'
+		$end 'AnimationSetups'
+	$end 'HFCircuit'
+	$begin 'DataInstances'
+		DesignEditor='TopLevel'
+		Refdes('0', 'U1')
+		$begin 'CompInstances'
+			$begin 'Compinst'
+				ID='0'
+				Status='Status'
+				CompName='Circuit1'
+				AutoGenerated=false
+				AutoGeneratedName=''
+				GatesInUse()
+				$begin 'Properties'
+					TextProp('ID', 'SRID', '', '0')
+				$end 'Properties'
+			$end 'Compinst'
+		$end 'CompInstances'
+		$begin 'Instance'
+			DesignEditor='Circuit1'
+			ID='0'
+			Refdes('1', 'HY1')
+			$begin 'HFCircuit'
+				$begin 'WindowPosition'
+					$begin 'EditorWindow'
+						Circuit(Schematic(View(WindowPos(5, -1, -1, -8, -31, 0, 0, 1088, 492), Extent(-0.507, -0.507, 1.015, 1.015, 3779.52755904, 3779.52755904, -0.0631062853019858, 0.00745957300914367, 0.0890143226216832, 0.0342167329582874, 3.12395887700333))), Layout())
+					$end 'EditorWindow'
+					$begin 'ReportWindow'
+						'XY Plot 1'(Report2D(View(WindowPos(5, -1, -1, -8, -31, 104, 104, 996, 444))))
+						'XY Plot 2'(Report2D(View(WindowPos(3, -1, -1, -8, -31, 130, 130, 1022, 470))))
+					$end 'ReportWindow'
+				$end 'WindowPosition'
+				$begin 'Reports'
+					$begin 'Report2D'
+						name='XY Plot 1'
+						ReportType=0
+						DisplayType=1
+						Title=''
+						Domain=''
+						$begin 'Graph2Ds'
+							$begin 'Graph2D'
+								TraceName='NWA1_71:SolutionPointSet 13:Trace2D 1'
+								Type='Continuous'
+								Axis='Y1'
+							$end 'Graph2D'
+						$end 'Graph2Ds'
+						$begin 'PlotInfo'
+							PlotType='XYPlot'
+							Frozen=false
+							MarkDirty=false
+							Subtitle=''
+							Filename='Circuit1'
+							CircuitTitle='<Design>'
+							Title='XY Plot 1'
+							DateLabel='<30 May 2021>'
+							TimeLabel='<18:06:23>'
+							Name='Ansoft Corporation'
+							DefaultTitle=false
+							Arrows=false
+							ZoomMode=false
+							ZoomType=1
+							UserSelectedTrace=-1
+							Rho=0
+							RhoMin=0
+							MarkerType='NoMarker'
+							MarkerScale='Mag-Phase'
+							UserSelectedMarkerPoint=0
+							SymbolDisplay=false
+							SymbolInterval=15
+							$begin 'Axis'
+								$begin 'Axis0'
+									AxisType='XAxis'
+									AxisIndex=0
+									AxisScale='Linear'
+									AxisName='F'
+									AxisLabel='DEFAULT'
+									AxisMax=10000000000
+									AxisMin=0
+									AxisMajorDivision=5
+									AxisMinorDivision=4
+									AxisManualRescale=false
+									AxisAutoUnits=true
+									AxisSide='Left'
+									$begin 'Units'
+										UnitFieldWidth=4
+										UnitPrecision=2
+										ScientificNotation=0
+										CircuitUnits='Giga'
+										BaseType='Frequency'
+									$end 'Units'
+									$begin 'Attribute'
+										Color=0
+										ColorOdd=65535
+										LineWidth=1
+										LineStyle=0
+										FillStyle=0
+										Visible=true
+										$begin 'Font'
+											FaceName='Arial'
+											FontHeight=160
+											FontWeight=700
+											FontOrientation=0
+											FontEscapement=0
+											FontItalics=false
+											FontUnderline=false
+											FontStrikeOut=false
+										$end 'Font'
+									$end 'Attribute'
+								$end 'Axis0'
+								$begin 'Axis1'
+									AxisType='YAxis'
+									AxisIndex=1
+									AxisScale='Linear'
+									AxisName='mag(S41)'
+									AxisLabel='DEFAULT'
+									AxisMax=0.75
+									AxisMin=0.55
+									AxisMajorDivision=4
+									AxisMinorDivision=5
+									AxisManualRescale=false
+									AxisAutoUnits=true
+									AxisSide='Left'
+									$begin 'Units'
+										UnitFieldWidth=4
+										UnitPrecision=2
+										ScientificNotation=0
+										CircuitUnits='NoUnits'
+										BaseType='None'
+									$end 'Units'
+									$begin 'Attribute'
+										Color=0
+										ColorOdd=65535
+										LineWidth=1
+										LineStyle=0
+										FillStyle=0
+										Visible=true
+										$begin 'Font'
+											FaceName='Arial'
+											FontHeight=160
+											FontWeight=700
+											FontOrientation=0
+											FontEscapement=0
+											FontItalics=false
+											FontUnderline=false
+											FontStrikeOut=false
+										$end 'Font'
+									$end 'Attribute'
+								$end 'Axis1'
+							$end 'Axis'
+							DisplayMinorGrid=true
+							InitialGrid=1
+							DisplayGridLabel=true
+							DisplayTraceLabel=false
+							$begin 'Trace'
+								$begin 'TraceInfo0'
+									TraceType='Continuous'
+									$begin 'Attribute'
+										Color=16711680
+										ColorOdd=0
+										LineWidth=10
+										LineStyle=0
+										FillStyle=600
+										Visible=false
+										$begin 'Font'
+											FaceName='Arial'
+											FontHeight=160
+											FontWeight=700
+											FontOrientation=0
+											FontEscapement=0
+											FontItalics=false
+											FontUnderline=false
+											FontStrikeOut=false
+										$end 'Font'
+									$end 'Attribute'
+								$end 'TraceInfo0'
+							$end 'Trace'
+							$begin 'AllAttributes'
+								BackGroundColor=16777215
+								ContrastColor=16777215
+								$begin 'TitleAttr'
+									$begin 'Attribute'
+										Color=0
+										ColorOdd=65535
+										LineWidth=1
+										LineStyle=0
+										FillStyle=0
+										Visible=true
+										$begin 'Font'
+											FaceName='Arial'
+											FontHeight=168
+											FontWeight=700
+											FontOrientation=0
+											FontEscapement=0
+											FontItalics=false
+											FontUnderline=false
+											FontStrikeOut=false
+										$end 'Font'
+									$end 'Attribute'
+								$end 'TitleAttr'
+								$begin 'MajorGridAttr'
+									$begin 'Attribute'
+										Color=8421504
+										ColorOdd=65535
+										LineWidth=8
+										LineStyle=0
+										FillStyle=0
+										Visible=true
+										$begin 'Font'
+											FaceName='Arial'
+											FontHeight=100
+											FontWeight=700
+											FontOrientation=0
+											FontEscapement=0
+											FontItalics=false
+											FontUnderline=false
+											FontStrikeOut=false
+										$end 'Font'
+									$end 'Attribute'
+								$end 'MajorGridAttr'
+								$begin 'MinorGridAttr'
+									$begin 'Attribute'
+										Color=12632256
+										ColorOdd=65535
+										LineWidth=1
+										LineStyle=0
+										FillStyle=0
+										Visible=true
+										$begin 'Font'
+											FaceName='Arial'
+											FontHeight=100
+											FontWeight=700
+											FontOrientation=0
+											FontEscapement=0
+											FontItalics=false
+											FontUnderline=false
+											FontStrikeOut=false
+										$end 'Font'
+									$end 'Attribute'
+								$end 'MinorGridAttr'
+							$end 'AllAttributes'
+						$end 'PlotInfo'
+					$end 'Report2D'
+					$begin 'Report2D'
+						name='XY Plot 2'
+						ReportType=0
+						DisplayType=1
+						Title=''
+						Domain=''
+						$begin 'Graph2Ds'
+							$begin 'Graph2D'
+								TraceName='NWA1_71:SolutionPointSet 14:Trace2D 1'
+								Type='Continuous'
+								Axis='Y1'
+							$end 'Graph2D'
+						$end 'Graph2Ds'
+						$begin 'PlotInfo'
+							PlotType='XYPlot'
+							Frozen=false
+							MarkDirty=false
+							Subtitle=''
+							Filename='Circuit1'
+							CircuitTitle='<Design>'
+							Title='XY Plot 2'
+							DateLabel='<30 May 2021>'
+							TimeLabel='<18:06:23>'
+							Name='Ansoft Corporation'
+							DefaultTitle=false
+							Arrows=false
+							ZoomMode=false
+							ZoomType=1
+							UserSelectedTrace=-1
+							Rho=0
+							RhoMin=0
+							MarkerType='NoMarker'
+							MarkerScale='Mag-Phase'
+							UserSelectedMarkerPoint=0
+							SymbolDisplay=false
+							SymbolInterval=15
+							$begin 'Axis'
+								$begin 'Axis0'
+									AxisType='XAxis'
+									AxisIndex=0
+									AxisScale='Linear'
+									AxisName='F'
+									AxisLabel='DEFAULT'
+									AxisMax=10000000000
+									AxisMin=0
+									AxisMajorDivision=5
+									AxisMinorDivision=4
+									AxisManualRescale=false
+									AxisAutoUnits=true
+									AxisSide='Left'
+									$begin 'Units'
+										UnitFieldWidth=4
+										UnitPrecision=2
+										ScientificNotation=0
+										CircuitUnits='Giga'
+										BaseType='Frequency'
+									$end 'Units'
+									$begin 'Attribute'
+										Color=0
+										ColorOdd=65535
+										LineWidth=1
+										LineStyle=0
+										FillStyle=0
+										Visible=true
+										$begin 'Font'
+											FaceName='Arial'
+											FontHeight=160
+											FontWeight=700
+											FontOrientation=0
+											FontEscapement=0
+											FontItalics=false
+											FontUnderline=false
+											FontStrikeOut=false
+										$end 'Font'
+									$end 'Attribute'
+								$end 'Axis0'
+								$begin 'Axis1'
+									AxisType='YAxis'
+									AxisIndex=1
+									AxisScale='Linear'
+									AxisName='dB(S11)'
+									AxisLabel='DEFAULT'
+									AxisMax=-85
+									AxisMin=-110
+									AxisMajorDivision=5
+									AxisMinorDivision=5
+									AxisManualRescale=false
+									AxisAutoUnits=true
+									AxisSide='Left'
+									$begin 'Units'
+										UnitFieldWidth=4
+										UnitPrecision=2
+										ScientificNotation=0
+										CircuitUnits='NoUnits'
+										BaseType='None'
+									$end 'Units'
+									$begin 'Attribute'
+										Color=0
+										ColorOdd=65535
+										LineWidth=1
+										LineStyle=0
+										FillStyle=0
+										Visible=true
+										$begin 'Font'
+											FaceName='Arial'
+											FontHeight=160
+											FontWeight=700
+											FontOrientation=0
+											FontEscapement=0
+											FontItalics=false
+											FontUnderline=false
+											FontStrikeOut=false
+										$end 'Font'
+									$end 'Attribute'
+								$end 'Axis1'
+							$end 'Axis'
+							DisplayMinorGrid=true
+							InitialGrid=1
+							DisplayGridLabel=true
+							DisplayTraceLabel=false
+							$begin 'Trace'
+								$begin 'TraceInfo0'
+									TraceType='Continuous'
+									$begin 'Attribute'
+										Color=16711680
+										ColorOdd=0
+										LineWidth=10
+										LineStyle=0
+										FillStyle=600
+										Visible=false
+										$begin 'Font'
+											FaceName='Arial'
+											FontHeight=160
+											FontWeight=700
+											FontOrientation=0
+											FontEscapement=0
+											FontItalics=false
+											FontUnderline=false
+											FontStrikeOut=false
+										$end 'Font'
+									$end 'Attribute'
+								$end 'TraceInfo0'
+							$end 'Trace'
+							$begin 'AllAttributes'
+								BackGroundColor=16777215
+								ContrastColor=16777215
+								$begin 'TitleAttr'
+									$begin 'Attribute'
+										Color=0
+										ColorOdd=65535
+										LineWidth=1
+										LineStyle=0
+										FillStyle=0
+										Visible=true
+										$begin 'Font'
+											FaceName='Arial'
+											FontHeight=168
+											FontWeight=700
+											FontOrientation=0
+											FontEscapement=0
+											FontItalics=false
+											FontUnderline=false
+											FontStrikeOut=false
+										$end 'Font'
+									$end 'Attribute'
+								$end 'TitleAttr'
+								$begin 'MajorGridAttr'
+									$begin 'Attribute'
+										Color=8421504
+										ColorOdd=65535
+										LineWidth=8
+										LineStyle=0
+										FillStyle=0
+										Visible=true
+										$begin 'Font'
+											FaceName='Arial'
+											FontHeight=100
+											FontWeight=700
+											FontOrientation=0
+											FontEscapement=0
+											FontItalics=false
+											FontUnderline=false
+											FontStrikeOut=false
+										$end 'Font'
+									$end 'Attribute'
+								$end 'MajorGridAttr'
+								$begin 'MinorGridAttr'
+									$begin 'Attribute'
+										Color=12632256
+										ColorOdd=65535
+										LineWidth=1
+										LineStyle=0
+										FillStyle=0
+										Visible=true
+										$begin 'Font'
+											FaceName='Arial'
+											FontHeight=100
+											FontWeight=700
+											FontOrientation=0
+											FontEscapement=0
+											FontItalics=false
+											FontUnderline=false
+											FontStrikeOut=false
+										$end 'Font'
+									$end 'Attribute'
+								$end 'MinorGridAttr'
+							$end 'AllAttributes'
+						$end 'PlotInfo'
+					$end 'Report2D'
+				$end 'Reports'
+				$begin 'DCDisplayOption'
+					UseDefault=true
+					Current(true, 16711807, 3)
+					Voltage(true, 128, 3)
+					Font('Arial', 'Regular', 8)
+				$end 'DCDisplayOption'
+			$end 'HFCircuit'
+			$begin 'TopLayout'
+				DefaultUnits='mm'
+				DefaultAngleUnits='deg'
+				majorSize='10'
+				minorSize='1'
+				angleSnap='5deg'
+				PixelSnapTolerance=20
+				SnapTargetVertex_on=true
+				SnapTargetEdgeCenter_on=true
+				SnapTargetObjCenter_on=false
+				SnapTargetEdge_on=false
+				SnapTargetElecConnection_on=false
+				SnapTargetIntersection_on=false
+				SnapTargetGrid_on=true
+				SnapSourceVertex_on=true
+				SnapSourceEdgeCenter_on=true
+				SnapSourceObjCenter_on=false
+				SnapSourceEdge_on=false
+				SnapSourceElecConnection_on=false
+				$begin 'TextStyles'
+					TextStyle(N='<DefaultAnnotation>', F='Arial', Hght=12, Scale=false)
+					TextStyle(N='<DefaultPlotter>', Plot=true, F='RomanSimplex', Hght=5, HghtUnt='mm')
+					TextStyle(N='<DefaultMeasure>', Plot=true, F='RomanSimplex', Hght=10, Scale=false)
+					TextStyle(N='Small', F='Arial', Hght=5, Scale=false)
+					TextStyle(N='Large', F='Arial', Hght=15, Scale=false)
+					TextStyle(N='Notes', F='Arial', Hght=10, Scale=false)
+				$end 'TextStyles'
+				$begin 'TraceStyles'
+					TraceStyle(name='2mil', size='2mil', bendStyle=0, capStyle=0)
+					TraceStyle(name='5mil', size='5mil', bendStyle=0, capStyle=0)
+					TraceStyle(name='10mil', size='10mil', bendStyle=0, capStyle=0)
+					TraceStyle(name='20mil', size='20mil', bendStyle=0, capStyle=0)
+				$end 'TraceStyles'
+				'current via style'=''
+				'current pin style'=''
+				defaultholesize='25mil'
+				fillMode=false
+				drawMode=true
+				reversed=false
+				useFixedDrawingResolution=false
+				DrawingResolution='0.002mm'
+				snapToPort=true
+				showGrid=true
+				'show connection points'=true
+				'display vertex labels'=false
+				'preview selection'=false
+				'rectangle description'=0
+				majorColor=16772075
+				minorColor=16774645
+				currentTextStyle=0
+				currentTraceStyle=0
+				'background color'=16777215
+				'primary selection color'=255
+				'secondary selection color'=3289800
+				'sym footprint scaling'=2
+				prevBounds(-1000, -1000, 1000, 1000)
+				prevMapFactor(1000, 1000)
+				prevOrigin(0, 0)
+				prevViewExtent(0, 0)
+				prevZoomScale=1
+				pageExtent(-0.1, -0.1, 0.1, 0.1)
+				$begin 'GerberPageSetup'
+				$end 'GerberPageSetup'
+			$end 'TopLayout'
+		$end 'Instance'
+	$end 'DataInstances'
+$end 'AnsoftProject'
